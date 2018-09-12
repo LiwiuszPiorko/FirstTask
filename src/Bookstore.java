@@ -1,8 +1,8 @@
 public class Bookstore {
     public static void main(String[]args){
 
-        Book book1=new Book();
-        book1.Title="Społeczeństwo Zerowych kosztów krańcowych";
+        Book book1=new Book("Społeczeństwo zerowych kosztów krańcowych", "Jeremy Rifkin", "Studio EMKA", 2016);
+        book1.Title="Społeczeństwo zerowych kosztów krańcowych";
         book1.Author="Jeremy Rifkin";
         book1.Publisher="Studio EMKA";
         book1.Year=2016;
@@ -12,7 +12,7 @@ public class Bookstore {
         System.out.println(book1.Publisher);
         System.out.println(book1.Year);
 
-        Book book2=new Book();
+        Book book2=new Book("Java. Podstawy", "Cay S. Horstmann", "Helion",2016);
         book2.Title="Java.Podstawy";
         book2.Author="Cay S. Horstmann";
         book2.Publisher="Helion";

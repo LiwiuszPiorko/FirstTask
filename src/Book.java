@@ -4,7 +4,12 @@ public class Book {
     String Publisher;
     int Year;
 
-    Book() {
+    Book(String Titl, String Auth, String Pub, int Yea) {
+
+        Title=Titl;
+        Author=Auth;
+        Publisher=Pub;
+        Year=Yea;
 
     }
 }
