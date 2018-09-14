@@ -1,15 +1,15 @@
 public class Book {
-    String Title;
-    String Author;
-    String Publisher;
-    int Year;
+    String title;
+    String author;
+    String publisher;
+    int year;
 
-    Book(String Titl, String Auth, String Pub, int Yea) {
+    Book(String titl, String auth, String pub, int yea) {
 
-        Title=Titl;
-        Author=Auth;
-        Publisher=Pub;
-        Year=Yea;
+        title=titl;
+        author=auth;
+        publisher=pub;
+        year=yea;
 
     }
 }
